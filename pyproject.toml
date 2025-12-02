@@ -1,0 +1,23 @@
+[project]
+name = "diffraxia"
+version = "0.1.0"
+description = "Diffraxia: diffraction data processing toolkit (HEXRD, TEM, EBSD, etc.)"
+authors = [
+  { name = "Can Okuyucu", email = "okuyucu@mit.edu" }
+]
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "h5py",
+  "imageio>=2.25",
+  "dectris-compression",
+  "hexrd"
+]
+
+[project.scripts]
+diffraxia = "diffraxia.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+

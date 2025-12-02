@@ -1,0 +1,14 @@
+# Sample paths for running the examples
+
+# Example HDF5 input file:
+examples/EIG16M_CdTe_ceria.h5
+
+# Example HEXRD instrument file:
+examples/beamline_params.hexrd
+
+# Example TIFF output folder (will be created by the commands):
+examples/tiff_out
+
+# Example integration output prefix:
+examples/text_out/hexrd_experiment_
+
